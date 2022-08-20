@@ -1,0 +1,88 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  font-family: 'Odibee Sans', cursive;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+h1 {
+  font-size: 2.625rem;
+}
+
+.main {
+  height: 700px;
+  width: 450px;
+  border-radius: 25px;
+  background-color: white;
+  display: inline-block;
+  border-color: black;
+}
+.background-img {
+  display: inline-block;
+  margin: 0;
+}
+.top {
+  width: 20%;
+}
+.hero {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.price-area {
+  width: 95%;
+  height: 80px;
+  border-radius: 15px;
+  margin: auto;
+
+}
+.music-logo {
+  height: 40px;
+  width: 40px;
+float: left;
+margin: 10px 10px 15px;
+}
+.yearly-plan {
+  float: left;
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 1.25rem;
+}
+.changer {
+  float: right;
+}
+.price {
+  float: left;
+  line-height: 1px;
+}
+.main-para {
+  margin-bottom: 55px;
+}
+.attribution {
+  margin-top: 60px;
+}
+.checkout-box {
+margin-top: 30px;
+}
+.payment {
+text-decoration: none;
+margin: auto;
+background-color: blue;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+}
+.bottom {
+  margin-top: 25px;
+  text-decoration: none;
+}
